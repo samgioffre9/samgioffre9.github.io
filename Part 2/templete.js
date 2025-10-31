@@ -1,6 +1,5 @@
 // Load the data
 const socialMedia = d3.csv("socialMedia.csv");
-console.log("Script is running!");
 
 // Once the data is loaded, proceed with plotting
 socialMedia.then(function(data) {
